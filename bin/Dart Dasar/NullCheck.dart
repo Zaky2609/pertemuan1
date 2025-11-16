@@ -1,5 +1,5 @@
 void main () {
-  int? age = null;
+  int? age;
   print((age ?? 0).toDouble());
 
 }

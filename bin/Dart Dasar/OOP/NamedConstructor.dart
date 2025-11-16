@@ -2,7 +2,7 @@ class Person {
   late String name;
   late String address;
 
-  Person(this.name, this.address){}
+  Person(this.name, this.address);
   Person.withName(this.name){
     address = '';
   }

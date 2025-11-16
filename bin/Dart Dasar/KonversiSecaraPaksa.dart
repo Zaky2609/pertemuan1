@@ -1,5 +1,5 @@
 void main () {
-  int? nullableNumber = null;
+  int? nullableNumber;
   var number = nullableNumber!;
   print (number);
 }
